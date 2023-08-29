@@ -1,11 +1,11 @@
 # Tic-Tac-Toe-Battle
 
-Welcome to my Project! This project is implementation of Tic-Tac-Toe also known as Noughts and Crosses which is a clasic two player game. The code is written in C++ which is general purpose high-level language , I have made this project as a part of my hobby and to explore the world of C++.
+Welcome to my Project! This project is implementation of Tic-Tac-Toe also known as Noughts and Crosses which is a clasic two player game. The code is written in C++ which is general purpose high-level language , I have made this project as a part of my hobby and to explore the world of C++. It's designed to help you practice fundamental programming concepts and logical thinking.
 
 ## Tables of Content
 - [Getting Started](#getting-started)
 - [Rules to play Tic-Tac-Toe](#rules-to-play-tic-tac-toe)
-- [Features](#feautures)
+- [Features](#features)
 - [How to play](#how-to-play)
 - [Limitations](#limitations)
 - [Contributing](#contributing)
@@ -26,8 +26,15 @@ git clone https://github.com/kalrah0001/TicTacToe-Battle.git
 Tic-Tac-Toe is a two player game played on 3X3 grid. One player uses 'X' and other player uses '0'. The objective of the game is to form a line of three of your symbols horizontally, verically or diagonally the first player to do so wins the game.
 
 Here's an example of the board:
+   
+
 
 ## Features
+
+
+- Interactive gameplay for two players.
+- Win condition checks for horizontal, vertical, and diagonal lines.
+- Display of the game board after each move.
 
 ## How To Play
 
@@ -36,7 +43,8 @@ Here's an example of the board:
 
 While the Tic-Tac-Toe game is functional and fun to play, it does have a few limitations and known issues that you should be aware of:
 
-- **Crash on Invalid Inputs:** The program may crash if players input values are not within the range (1-9). I am actively working on improving input validation to prevent this issue.
+- **Crash on Invalid Inputs:** The program may crash if players input values are not within the range (1-9). I am actively working on improving input validation to prevent this issue. <br>
+Also, you cannot enter a digit more than once for example if you have cell at position 3 you cannot use it again it will lead to unexpected results.
 - **No GUI:** The version of the game is played on the command line interface (CLI) only. A graphical user interface (GUI) is not available on this release.
 - **Lack Of AI-** This is a two player version of the game, and it does not include an AI opponent for single-player mode.
 
@@ -46,6 +54,7 @@ I am excited to see your interest in contributing to the Tic Tac Toe Project! Wh
 
 ### Reporting Issues
 
+If you come across any bugs, glitches, or unexpected behavior while playing the game, please open an issue on our [GitHub Issue Tracker](https://github.com/kalrah0001/TicTacToe-Battle/issues). When reporting issues, please provide as much detail as possible, including the steps to reproduce the problem, any error messages you encounter, and the context in which the issue occurs.
 
 
 ### Suggesting Enhancements
